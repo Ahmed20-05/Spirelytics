@@ -2,7 +2,8 @@ import json
 import os
 import pandas as pd
 
-DATA_DIR = "C:\Users\ahmed\AppData\Roaming\SlayTheSpire2\steam\76561197960287930\profile1\saves\history"
+#ADD YOUR PATH HERE
+DATA_DIR = r"C:\Users\ahmed\AppData\Roaming\SlayTheSpire2\steam\76561197960287930\profile1\saves\history"
 
 def load_run_file(filepath):
     with open(filepath, "r", encoding="utf-8") as f:
@@ -94,4 +95,4 @@ if __name__ == "__main__":
     print(df.head())
 
     # Save for analysis
-    df.to_csv("slay_the_spire_runs.csv", index=False)
+    df.to_csv("runs.csv", index=False)

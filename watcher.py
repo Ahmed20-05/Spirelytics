@@ -4,8 +4,8 @@ import pandas as pd
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 
-DATA_DIR = "C:\Users\ahmed\AppData\Roaming\SlayTheSpire2\steam\76561197960287930\profile1\saves\history"
-OUTPUT_CSV = "slay_the_spire_runs.csv"
+DATA_DIR = r"C:\Users\ahmed\AppData\Roaming\SlayTheSpire2\steam\76561197960287930\profile1\saves\history"
+OUTPUT_CSV = "runs.csv"
 
 
 # --- reuse your parser functions ---
