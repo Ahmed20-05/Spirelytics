@@ -2,7 +2,7 @@ import json
 import os
 import pandas as pd
 
-DATA_DIR = "path/to/your/run/files"
+DATA_DIR = "C:\Users\ahmed\AppData\Roaming\SlayTheSpire2\steam\76561197960287930\profile1\saves\history"
 
 def load_run_file(filepath):
     with open(filepath, "r", encoding="utf-8") as f:
